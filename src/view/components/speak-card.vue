@@ -217,16 +217,16 @@ onMounted(() => {
 @media screen and (min-width: 768px) {
   .speak-body-card-content :deep(.fancybox),
   .speak-body-card-content :deep(video) {
-    display: inline-block;
-    max-width: 24%;
+    display: inline-flex;
+    height: 240px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .speak-body-card-content :deep(.fancybox),
   .speak-body-card-content :deep(video) {
-    display: inline-block;
-    max-width: 49%;
+    display: inline-flex;
+    height: 200px;
   }
 }
 </style>
